@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 17px;
+  font-family: sans-serif;
+}
+/* Nav-Bar */
+
+/* .contato {
+  border: 1px solid black;
+  height: 40px;
+} */
+
+.navbar{
+  color: white;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  height: 85px;
+}
+
+/* Body */
+.img-header {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  height: 902px;
+  background-image: url("../img/Rolax/h1_hero.jpg");
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  height: 770px;
+}
+
+#texto-header{
+  text-align: center;
+  margin: auto;
+  width: 850px;
+  height: 144px;
+}
+
+#texto-header h1 {
+  color: white;
+  font-size: 57px;
+}
+
+.check-in.container{
+  z-index: 1000;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 0px;
+  height: 193px;
+}
+
+.check-in input {
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+}
+
+select{
+  border: 1px solid white;
+  color: white;
+  font-weight: 500;
+  padding-left: 10px;
+  width: 100%;
+  height: 47px;background-color: transparent;
+}
+
+.conteudo{
+  display: flex;
+  height: 800px;
+}
+
+.conteudo.row.container {
+  height: 10px;
+}
