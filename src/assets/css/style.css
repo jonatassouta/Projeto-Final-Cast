@@ -1,6 +1,7 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif
 }
 
 a {
@@ -33,9 +34,9 @@ p {
 .img-header {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
   height: 902px;
-  background-image: url("../img/Rolax/h1_hero.jpg");
+  background-image: url("../img/3.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -92,3 +93,194 @@ select{
 .conteudo.row.container {
   height: 10px;
 }
+
+.conteudo.se img{
+  width: 100%;
+  height: 100%;
+  margin-right: -25px;
+}
+
+/* Corrocel quartos */
+
+#card{
+  height: 100%;
+  z-index: -1;
+  font-weight: 800;
+  background-color: rgba(rgb(0, 0, 0, 0.3));
+  width: 1000px;
+  display: absolute;
+  margin-top: -123px;
+  margin-left: 80px;
+}
+
+#card p{
+  font-size: 20px;
+  z-index: 0;
+}
+
+.owl-carousel .owl-item  {
+  margin-right: 5px;
+}
+
+.owl-carousel .owl-item img{
+  border-radius: 5px;
+}
+.owl-stage-outer {
+  height: 300px;
+}
+
+.owl-stage-outer img{
+  height: 200%;
+}
+
+/* Fim carrocel Quartos */
+
+/* Inicio carroel imagens */
+
+.carousel.slide {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.carousel-item.active
+ {
+    height: 900px;
+ }
+
+ .carousel-item.active img
+ {
+    height: 100%;
+ }
+
+ /* Fim Carrocel */
+
+ /* Inicio cards */
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+.container .card {
+    max-width: 300px;
+    height: 215px;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out
+}
+
+.container .card:hover {
+    height: 450px
+}
+
+.container .card .imgContainer {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: -50px;
+    left: 10px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2)
+}
+
+.container .card .imgContainer img {
+    max-width: 100%;
+    border-radius: 4px
+}
+
+.container .card .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease-in-out
+}
+
+.container .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s
+}
+
+@media (max-width: 330px) {
+    .container .card .imgContainer {
+        left: -2px
+    }
+}
+
+ /* Fim cards */
+
+ /* Inicio Footer */
+
+/* ==========================================
+    FOR DEMO PURPOSE
+  ========================================== */
+
+  .text-small {
+    font-size: 0.9rem;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+
+  .form-control {
+    background: #212529;
+    border-color: #545454;
+  }
+
+  .form-control:focus {
+    background: #212529;
+  }
+
+  footer {
+    background: #212529;
+  }
+
+
+  /* ==========================================
+      CUSTOM UTILS CLASSES
+    ========================================== */
+    body, html {
+      height: 100%;
+    }
+
+ /* Fim Footer */
+
+
+/* Responsive */
+
+@media (max-width: 400px) {
+  .header {
+    height: 700px;
+  }
+
+  .conteudo{
+    height: 13000px;
+  }
+
+  .col-md.img-io {
+    display: none;
+  }
+
+  .owl-stage-outer {
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+
+  .owl-stage-outer img{
+    height: 200%;
+  }
+}
+
