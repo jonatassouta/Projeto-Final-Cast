@@ -7,6 +7,9 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeComponent } from './home/home.component';
 import { ContateNosComponent } from './contate-nos/contate-nos.component';
+import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.component';
+import { GaleriaComponent } from './galeria/galeria.component';
+import { ReservasComponent } from './reservas/reservas.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +17,9 @@ import { ContateNosComponent } from './contate-nos/contate-nos.component';
     NavBarComponent,
     HomeComponent,
     ContateNosComponent,
+    CadastroUsuarioComponent,
+    GaleriaComponent,
+    ReservasComponent,
   ],
   imports: [
     BrowserModule,

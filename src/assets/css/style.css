@@ -4,6 +4,11 @@
   font-family: 'Poppins', sans-serif
 }
 
+body, html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -206,6 +211,7 @@ select{
     transition-delay: 0.3s
 }
 
+
 @media (max-width: 330px) {
     .container .card .imgContainer {
         left: -2px
@@ -235,13 +241,9 @@ select{
   }
 
   .form-control {
-    background: #212529;
     border-color: #545454;
   }
 
-  .form-control:focus {
-    background: #212529;
-  }
 
   footer {
     background: #212529;
@@ -256,13 +258,25 @@ select{
     }
 
  /* Fim Footer */
+ .nav-out {
+   position: absolute;
+   width: 100vw;
+  border-bottom: 1px solid black;
+ }
+
+.nav-nav {
+
+}
+
+.nav-nav {
+    position: sticky;
+    top:-200px;
+}
 
 
- /* Contate-Nos */
-
-
-
- /* Fim Contatos */
+ html {
+  scroll-behavior: smooth;
+}
 
 /* Responsive */
 
